@@ -10,7 +10,7 @@ describe Solver do
     it "it should return 24" do
         solver = Solver.new
         n = solver.factorial(4)
-        expect(n).t eql 24
+        expect(n).to eql 24
     end
 end
 end
