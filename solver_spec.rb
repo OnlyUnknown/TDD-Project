@@ -35,4 +35,26 @@ end
             expect(reversed).to eql "ko"
         end
     end
+
+    describe "#fizzbuzz" do
+        it "should return fizz"
+        solver = Solver.new
+            fizzbuzz = solver.fizzbuzz("3")
+            expect(fizzbuzz).to eql "fizz"
+        end
+        it "should return buzz"
+        solver = Solver.new
+            fizzbuzz = solver.fizzbuzz("5")
+            expect(fizzbuzz).to eql "buzz"
+        end
+        it "should return fizzbuzz"
+        solver = Solver.new
+            fizzbuzz = solver.fizzbuzz("15")
+            expect(fizzbuzz).to eql "fizzbuzz"
+        end
+        it "should return the number"
+        solver = Solver.new
+            fizzbuzz = solver.fizzbuzz("2")
+            expect(fizzbuzz).to eql "2"
+        end
 end
