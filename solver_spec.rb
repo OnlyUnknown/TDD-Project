@@ -23,4 +23,16 @@ describe Solver do
         expect(n).to eql "It can't be factorialied"
     end
 end
+    describe "#reverse" do
+        it "it should return olleh" do
+            solver = Solver.new
+            reversed = solver.reverse("hello")
+            expect(reversed).to eql "olleh"
+        end
+        it "it should return ko" do
+            solver = Solver.new
+            reversed = solver.reverse("ok")
+            expect(reversed).to eql "ko"
+        end
+    end
 end
