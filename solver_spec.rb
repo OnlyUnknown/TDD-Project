@@ -1,28 +1,33 @@
 require_relative "solver"
 
+
 describe Solver do
-    describe "#factorial" do
-    it "it should return 2" do
+    describe "#fizzbuzz" do
+      it "should return fizz" do
         solver = Solver.new
-        n = solver.factorial(2)
-        expect(n).to eql 2
-    end
-    it "it should return 24" do
+        fizzbuzz = solver.fizzbuzz("3")
+        expect(fizzbuzz).to eql "fizz"
+      end
+  
+      it "should return buzz" do
         solver = Solver.new
-        n = solver.factorial(4)
-        expect(n).to eql 24
-    end
-    it "it should return 0" do
+        fizzbuzz = solver.fizzbuzz("5")
+        expect(fizzbuzz).to eql "buzz"
+      end
+  
+      it "should return fizzbuzz" do
         solver = Solver.new
-        n = solver.factorial(0)
-        expect(n).to eql 1
-    end
-    it "it should return a message" do
+        fizzbuzz = solver.fizzbuzz("15")
+        expect(fizzbuzz).to eql "fizzbuzz"
+      end
+  
+      it "should return the number" do
         solver = Solver.new
-        n = solver.factorial(-1)
-        expect(n).to eql "It can't be factorialied"
+        fizzbuzz = solver.fizzbuzz("2")
+        expect(fizzbuzz).to eql "2"
+      end
     end
-end
+end  
     describe "#reverse" do
         it "it should return olleh" do
             solver = Solver.new
@@ -37,22 +42,22 @@ end
     end
 
     describe "#fizzbuzz" do
-        it "should return fizz"
+        it "should return fizz" do
         solver = Solver.new
             fizzbuzz = solver.fizzbuzz("3")
             expect(fizzbuzz).to eql "fizz"
         end
-        it "should return buzz"
+        it "should return buzz" do
         solver = Solver.new
             fizzbuzz = solver.fizzbuzz("5")
             expect(fizzbuzz).to eql "buzz"
         end
-        it "should return fizzbuzz"
+        it "should return fizzbuzz" do 
         solver = Solver.new
             fizzbuzz = solver.fizzbuzz("15")
             expect(fizzbuzz).to eql "fizzbuzz"
         end
-        it "should return the number"
+        it "should return the number" do
         solver = Solver.new
             fizzbuzz = solver.fizzbuzz("2")
             expect(fizzbuzz).to eql "2"
