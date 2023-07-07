@@ -15,4 +15,8 @@ class Solver
         total
     end
     end
+
+    def reverse(string)
+         string.reverse
+    end
 end
