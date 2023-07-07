@@ -1,32 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img/>
   <br/>
 
@@ -34,7 +8,6 @@ After you're finished please remove all the comments and instructions!
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -42,14 +15,12 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -58,29 +29,21 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 
-# 📖 OOP school library <a name="about-project"></a>
+# 📖 Test Driven Development <a name="about-project"></a>
 
-It is an OPP school library that has used an object-oriented program
-
+This project ia about about writting tests first and then the code which is Test Driven Development
 ## 🛠 Built With <a name="built-with"></a>
 -ruby
 
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Have the ability to add people by class of ruby
+- A factorial that takes one argument, an integer N, and returns the factorial for that number.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-[Live view]()
 
 
 
@@ -108,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/OnlyUnknown/OOP-school-library.git
+  git https://github.com/OnlyUnknown/TDD-Project.git
 ```
 
 
@@ -117,7 +80,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd OOP-school-library
+  cd TDD-project
   node install
 ```
 
@@ -126,11 +89,6 @@ Install this project with:
 To run the project, execute the following command:
 npm start
 
-<!--
-```sh
-  rails server
-```
--->
 
 
 ### Prerequisites
@@ -142,24 +100,6 @@ In order to run this project you need:
 - RUBY
 - Terminal of your choice i.e; Git Bash or CMD or Terminal
 
-
-<!--
-Example commands:
-
-```sh
- 
-```
---->
-
-<!--
-Example command:
-
-```sh
-```
---->
-
-
-
 <!--
 Example command:
 
@@ -169,23 +109,6 @@ Example command:
 --->
 
 
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
